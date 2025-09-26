@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Read - VooP</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="index.html" id="navbar__logo">VooP</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="video.html" class="navbar__links"> Video </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="course.html" class="navbar__links"> Course </a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="about.html" class="button"> About </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Course Read Section -->
+    <section class="course-read-section">
+        <div class="course-read-container">
+            <!-- Course Header -->
+            <div class="course-read-header">
+                <h1 class="course-read-title" id="course-read-title">Course Title</h1>
+                <p class="course-read-subtitle" id="course-read-subtitle">Course description</p>
+                <div class="course-read-meta" id="course-read-meta">
+                    <!-- Meta info loaded by JavaScript -->
+                </div>
+            </div>
+
+            <!-- Course Content -->
+            <div class="course-read-content-grid">
+                <!-- Main Content -->
+                <div class="course-read-main" id="course-read-main">
+                    <!-- Content loaded by JavaScript -->
+                </div>
+
+                <!-- Sidebar -->
+                <div class="course-read-sidebar">
+                    <div class="action-card">
+                        <h3>Test Your Knowledge</h3>
+                        <p>Ready to check your understanding?</p>
+                        <a href="#" class="action-btn primary" id="quiz-link">Take Quiz</a>
+                    </div>
+
+                    <div class="action-card">
+                        <h3>Other Courses</h3>
+                        <div class="course-nav-links" id="course-nav-links">
+                            <!-- Navigation links loaded by JavaScript -->
+                        </div>
+                    </div>
+
+                    <div class="action-card">
+                        <h3>Quick Actions</h3>
+                        <a href="course.html" class="action-btn secondary">All Courses</a>
+                        <a href="index.html" class="action-btn secondary">Back to Home</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="apps.js"></script>
+</body>
+</html>
